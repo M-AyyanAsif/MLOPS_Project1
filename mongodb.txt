@@ -1,0 +1,13 @@
+    stopmold8290_db_user
+    8KNH96X5fJMfqN9m
+
+    mongodb+srv://stopmold8290_db_user:8KNH96X5fJMfqN9m@mlopsproj1.ihqpipp.mongodb.net/?appName=MLOPSProj1
+
+
+    $env:MONGODB_URL = "mongodb+srv://stopmold8290_db_user:8KNH96X5fJMfqN9m@mlopsproj1.ihqpipp.mongodb.net/?appName=MLOPSProj1"
+
+    AKIARM6L5TMH5U4COIOX
+    KYbGgQRGD15WdE71UX+PhLSUBZ4HOdrj+CWSixE2
+
+    $env:AWS_ACCESS_KEY_ID = "AKIARM6L5TMH5U4COIOX"
+    $env:AWS_SECRET_ACCESS_KEY= "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"

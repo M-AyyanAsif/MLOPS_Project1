@@ -137,37 +137,13 @@ Run:
 
 ---
 
-## 🌐 AWS Setup for Model Evaluation & Deployment
-
----
-
-### 🔹 Step 12: AWS Setup
-
-- Create IAM user with AdministratorAccess  
-
-Set environment variables:
-
-- Configure S3 access in:
-  `constants/__init__.py`
-
----
-
-### 🔹 Step 13: Model Storage (S3)
-
-- Create S3 bucket:
-  `my-model-mlopsproj (us-east-1)`
-
-- Implement:
-  `src/aws_storage/`  
-  `entity/s3_estimator.py`
-
 ---
 
 ## 🚀 Model Evaluation, Pusher & Prediction Pipeline
 
 ---
 
-### 🔹 Step 14: Model Evaluation & Deployment
+### 🔹 Step 12: Model Evaluation & Deployment
 
 - Build evaluation and deployment components  
 - Create prediction pipeline  
@@ -175,7 +151,7 @@ Set environment variables:
 
 ---
 
-### 🔹 Step 15: UI Setup
+### 🔹 Step 13: UI Setup
 
 - Add:
   `static/`  
@@ -183,27 +159,21 @@ Set environment variables:
 
 ---
 
-## 🔄 CI/CD with Docker, GitHub Actions & AWS
+## 🔄 CI/CD with Docker, GitHub Actions & HuggingFace
 
 ---
 
-### 🔹 Step 16: Docker & GitHub Actions
+### 🔹 Step 14: Docker & GitHub Actions
 
 - Create:
   `Dockerfile`  
   `.dockerignore`
 
-- Configure GitHub Secrets:
-  - AWS_ACCESS_KEY_ID  
-  - AWS_SECRET_ACCESS_KEY  
-  - AWS_DEFAULT_REGION  
-  - ECR_REPO  
-
 ---
 
-### 🔹 Step 17: AWS EC2 & ECR
+### 🔹 Step 16: Hugging Face Setup
 
-- Launch EC2 instance  
+- Launch HF spaces  
 - Install Docker  
 - Connect EC2 as self-hosted runner  
 
